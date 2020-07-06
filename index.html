@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><u>MARKSHEET</u></h1>
+    <fieldset id="f1">
+        <legend>STUDENT INFORMATION</legend>
+        <table align="center" id="tbl">
+            <form name="form1">
+                <tr>
+                    <td><input type="text" name="txtname" placeholder="Name"></td>
+                    <td><input type="text" name="txtfname" placeholder="Father Name"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="txtbatch" placeholder="Batch"></td>
+                    <td><input type="text" name="txtsec" placeholder=" Section"></td>
+                </tr>
+        </table>
+    </fieldset>
+    <fieldset id="f2">
+        <legend>SUBJECTS MARKS</legend>
+            <table align="center" id="tbl2">
+                <tr>
+                    <td>English:</td>
+                    <td><input style="width: 50px;" type="number" name="txteng"></td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>Urdu:</td>
+                    <td><input style="width: 50px;" type="number" name="txturdu"></td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>Physics:</td>
+                    <td><input style="width: 50px;" type="number" name="txtphy"></td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>Maths:</td>
+                    <td><input style="width: 50px;" type="number" name="txtmath"></td>
+                </tr>
+                <tr>
+                    <td>Chem:</td>
+                    <td><input style="width: 50px;" type="number" name="txtchem"></td>
+                </tr>
+            </table>
+        </form>
+        <div class="btn">
+            <button style="font-size:17" type="button" onclick='myFun()'>Submit</button>
+        </div>
+    </fieldset>
+    <fieldset id="f3">
+        <legend>YOUR DATA</legend>
+        <table align="center">
+            <tr>
+                <td>Name</td>
+                <td>Father Name</td>
+                <td>Batch</td>
+                <td>Section</td>
+                <td>English</td>
+                <td>Urdu</td>
+                <td>Physics</td>
+                <td>Maths</td>
+                <td>Chem</td>
+            </tr>
+            <tr>
+                <td id="demoname"></td>
+                <td id="demofname"></td>
+                <td id="demobatch"></td>
+                <td id="demosec"></td>
+                <td id="demoeng"></td>
+                <td id="demourdu"></td>
+                <td id="demophy"></td>
+                <td id="demomath"></td>
+                <td id="demochem"></td>
+            </tr>
+            <!-- <tr>
+                <td>Total Marks</td>
+                <td>Percentage</td>
+                <td>Grade</td>
+            </tr>
+            <tr>
+                <td id="demototal"></td>
+                <td id="demoper"></td>
+                <td id="demograde"></td>
+            </tr> -->
+        </table>
+        <table class="fn">
+            <tr>
+                <td>Total Marks</td>
+                <td>Percentage</td>
+                <td>Grade</td>
+            </tr>
+            <tr>
+                <td id="demototal"></td>
+                <td id="demoper"></td>
+                <td id="demograde"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    
+
+
+    <script src="mk.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body
+    {
+    color: white;
+    background-color: #52616f;
+    }
+    #tbl,#tbl2
+    {
+    border-collapse:collapse;
+    font-size:18;
+    font-family:Century Gothic;
+    align-items: center;
+    }
+    legend{
+        background-color: rgba(3, 105, 193, 0.56);
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+    #f1{
+        background-color: rgba(3, 105, 193, 0.56);
+        width: 60%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 6px;
+        border-color: white;
+    }
+    #f2{
+        background-color: rgba(3, 105, 193, 0.56);
+        width: 20%;
+        margin: auto;
+        margin-top: 30px;
+        padding-top: 15px;
+        border-radius: 6px;
+        border-color: white;
+    }
+    #f1 tr td, #f1 tr td input, #f2 tr td input{
+        padding: 5px;
+    }
+    #f2 tr td input{
+        margin-top: 8px;
+    }
+    #f3{
+        background-color: rgba(3, 105, 193, 0.56);
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        padding-top: 15px;
+        border-radius: 6px;
+        border-color: white;
+        visibility: hidden;
+    }
+    #f3 tr td{
+        color: white;
+        background-color: #222229;
+        padding: 10px 40px;
+        text-align: center;
+    }
+    #f3 .fn tr td{
+        padding: 10px 110px;
+    }
+    #f3 .fn{
+        margin: auto;
+        margin-top: 15px;
+    }
+    .btn
+    {
+    float: right;
+    margin-top: 10px;
+    }
+    .btn button{
+        padding: 5px 10px;
+        background-color: rgb(18, 59, 180);
+        color: white;
+        border-radius: 5px;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    h1{
+        text-align: center;
+    }
+
+    legend{
+        text-align: center;
+    }
